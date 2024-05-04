@@ -19,7 +19,6 @@ $to_email = 'imobilejordan@gmail.com';
 $subject = 'Visitor Location';
 $message = "Visitor's location: $city, $region, $country";
 $headers = 'From: your_email@example.com' . "\r\n" .
-    'Reply-To: your_email@example.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 // Send email
